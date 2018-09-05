@@ -2,7 +2,7 @@
 
 function printBadges(employees) {
   for (let employee_count = 0; employee_count < employees.length; employee_count++) {
-    console.log(`Welcome ${employees[employee_count - 1]}! You are employee #${employee_count}.`);
+    console.log(`Welcome ${employees[employee_count]}! You are employee #${employee_count + 1}.`);
   }
   return employees;
 }
