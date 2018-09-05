@@ -14,7 +14,7 @@ function tailsCoinFlip() {
 function tailsNeverFails() {
   let tails_count = 0;
   while (tailsCoinFlip()) {
-    console.log(`You got ${tails_count} tails in a row!`);
     tails_count++;
+    console.log(`You got ${tails_count} tails in a row!`);
   }
 }
